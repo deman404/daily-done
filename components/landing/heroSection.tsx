@@ -11,7 +11,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ onGetStarted }: HeroSectionProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-primary/5">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-primary/5 pt-20">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-[0.02]">
         <div
